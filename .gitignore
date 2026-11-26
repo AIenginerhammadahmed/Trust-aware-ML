@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Heavy zip archives and extracted paper caches
+*.zip
+extracted_papers/
+PAPERS/
+
+# OS / Editor Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment Variables & Secrets
+.env

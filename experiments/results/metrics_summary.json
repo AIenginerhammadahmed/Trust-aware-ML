@@ -1,0 +1,29 @@
+{
+    "dataset": {
+        "total_samples": 25838,
+        "fraud_count": 88,
+        "test_samples": 5168
+    },
+    "optimal_temperature": 0.775012731552124,
+    "calibration": {
+        "ece_uncalibrated": 0.04264408857604897,
+        "ece_calibrated": 0.022231764199382317,
+        "brier_uncalibrated": 0.006177910272632155,
+        "brier_calibrated": 0.0043943138145624075,
+        "roc_auc": 0.9934735706580367,
+        "pr_auc": 0.6110678691751739
+    },
+    "uncertainty": {
+        "mean_epistemic_std": 0.05181802809238434,
+        "std_correct": 0.05173889920115471,
+        "std_incorrect": 0.07121194154024124,
+        "high_conf_wrong": 8,
+        "silent_killers": 8
+    },
+    "financial_optimization": {
+        "baseline_loss_usd": 785.0,
+        "optimal_loss_usd": 785.0,
+        "dollar_savings_usd": 0.0,
+        "optimal_coverage": 1.0
+    }
+}

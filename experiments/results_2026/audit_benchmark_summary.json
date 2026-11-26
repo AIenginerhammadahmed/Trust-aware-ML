@@ -1,0 +1,61 @@
+{
+    "n_test": 16707,
+    "opt_T": 0.7704522609710693,
+    "opt_thresh": 0.08,
+    "tau_sigma": 0.08730761706829071,
+    "ambiguity_band": 0.03,
+    "coverage": 0.9026755252289459,
+    "escalation_rate": 0.0973244747710541,
+    "n_auto": 15081,
+    "n_esc": 1626,
+    "sys1_ms_per_tx": 0.4059955162869869,
+    "measured_sim_ms_per_tx": 0.5761189671102742,
+    "projected_sync_llm_ms_per_tx": 146.35319437248612,
+    "models": [
+        {
+            "name": "1. CreditNet Uncalibrated (pw)",
+            "roc_auc": 0.8381030960784859,
+            "pr_auc": 0.12977840076672575,
+            "f1": 0.1591187270501836,
+            "ece": 0.2297752455056174,
+            "silent_fn": 23,
+            "coverage": 1.0
+        },
+        {
+            "name": "2. CreditNet TempScaled (T=0.77)",
+            "roc_auc": 0.8381030960784859,
+            "pr_auc": 0.12977840076672575,
+            "f1": 0.1591187270501836,
+            "ece": 0.2005892120426145,
+            "silent_fn": 36,
+            "coverage": 1.0
+        },
+        {
+            "name": "3. LightGBM Baseline (Forced)",
+            "roc_auc": 0.8425837594841723,
+            "pr_auc": 0.1602662850171043,
+            "f1": 0.234375,
+            "ece": 0.0055876359315683065,
+            "silent_fn": 232,
+            "coverage": 1.0
+        },
+        {
+            "name": "4. Selective Abstention (Auto-Only)",
+            "roc_auc": 0.8376948514644467,
+            "pr_auc": 0.1599022906198173,
+            "f1": 0.2532894736842105,
+            "ece": 0.004678107331956521,
+            "silent_fn": 168,
+            "coverage": 0.9026755252289459
+        },
+        {
+            "name": "5. Proposed Hybrid Cascade (Sys1+Sys2)",
+            "roc_auc": 0.837665538756566,
+            "pr_auc": 0.148958248703124,
+            "f1": 0.17228103946102022,
+            "ece": 0.009151606292117536,
+            "silent_fn": 173,
+            "coverage": 1.0
+        }
+    ]
+}
