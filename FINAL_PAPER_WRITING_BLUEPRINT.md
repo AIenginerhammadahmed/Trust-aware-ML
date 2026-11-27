@@ -1,7 +1,19 @@
 # 📝 Final Research Paper Writing Blueprint (Sample Structure & Guidelines)
 
 > **Purpose**: A complete, section-by-section sample paper template for **Deliverable 5B (Final Research Paper)**.  
+> **Format & Length**: **ACM 2-column format (`sigconf`)**, **6–8 pages total (including references)**. A ready-to-use LaTeX skeleton is provided in [`acm_paper_template.tex`](acm_paper_template.tex) for Overleaf.  
 > **Rule**: **DO NOT** copy-paste AI-generated prose. Beneath each heading, read the **[WRITE IN YOUR OWN WORDS]** prompts and plug in the exact **Formulas**, **Parameters**, **Tables**, and **Figures** specified.
+
+---
+
+## 📐 ACM 2-Column Page Budget (Target: 7 Pages, Range: 6–8 Pages)
+- **Page 1**: Title, Authors, Abstract (`150–200` words), Keywords, Section 1: Introduction (`~1.2` columns)
+- **Page 2**: Section 1 cont. + System Architecture Diagram (**Fig. 1**), Section 2: Related Work (`~1.0–1.2` columns)
+- **Page 3**: Section 3: Dataset & Preprocessing + **Table 1** (`~1.0` column), Section 4.1–4.2: System-1 & MC Dropout Equations (`~1.0` column)
+- **Page 4**: Section 4.3–4.4: Dual Gate & System-2 Serializer/Prompting (`~1.2` columns), Section 5: Experimental Setup & Metrics (`~0.8` column)
+- **Page 5**: Section 6: Results & Discussion + **Table 2** + **Fig. 2** (`cascade_performance_comparison.png`) (`~2.0` columns)
+- **Page 6**: Section 7: Live Gemini 3.5 Flash Lite Audit & Qualitative Analysis + **Table 3** + Case Studies (`~1.5–1.8` columns)
+- **Page 7–8**: Section 8: Limitations & Responsible AI (`~0.8` column), Section 9: Conclusion (`~0.5` column), References (`~0.5–0.8` column)
 
 ---
 
